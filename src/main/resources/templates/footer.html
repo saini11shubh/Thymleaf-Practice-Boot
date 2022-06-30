@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Footer Temlplate</title>
+</head>
+<body>
+	<footer th:fragment="footer1(title,subtitle)">
+		<div class="container">
+		<h1 th:text="${title}"></h1>
+		<h2 th:text="${subtitle}"></h2>
+			<p>So, here we have covered the top 25 fresher Java interview
+				questions. You can also find different questions from the other
+				sources. The key to getting success in the Java interview is going
+				through as many questions as you can</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Fragments</title>
+</head>
+<body>
+	<h1>this is fragments</h1>
+	
+	<footer th:insert="footer::footer1(${title},${subtitle})"></footer>
+</body>
+</html>
